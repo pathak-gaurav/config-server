@@ -1,10 +1,6 @@
-spring:
-  application:
-    name: config-prod
-    
 eureka:
   client:
-    fetch-registry: true
-    register-with-eureka: true
+    fetch-registry: false
+    register-with-eureka: false
   instance:
-    prefer-ip-address: true
+    prefer-ip-address: false
